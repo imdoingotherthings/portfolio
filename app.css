@@ -1,0 +1,48 @@
+body {
+  width: 50%;
+  margin: 350px auto;
+  font-family: 'Neuton', serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+}
+button {
+  padding: 5px;
+  margin: 5px;
+  border: none;
+  outline: none;
+  background: none;
+  transition-duration: 0.3s;
+}
+
+button:hover {
+  color: teal;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:visited, a:link {
+  color: gray;
+  text-decoration: none;
+}
+
+p {
+  text-transform: uppercase;
+  margin: 4px auto;
+  color: gray;
+  padding: 0;
+}
+
+hr {
+  width: 40%;
+  padding: 0;
+  margin: 0 auto;
+}
