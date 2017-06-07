@@ -6,7 +6,10 @@ body {
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 55px;
+  /*border: 2px solid black;*/
+  width: 400px;
+  margin: 5px auto;
 }
 button {
   padding: 5px;
@@ -26,6 +29,7 @@ button:hover {
 }
 
 a:hover {
+  color: teal;
   text-decoration: none;
 }
 
