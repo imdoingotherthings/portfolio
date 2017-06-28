@@ -1,3 +1,7 @@
+html {
+  animation: breathe 6s infinite;
+}
+
 body {
   width: 50%;
   margin: 350px auto;
@@ -11,7 +15,9 @@ h1 {
   /*border: 2px solid black;*/
   width: 400px;
   margin: 5px auto;
+  animation: name 0.3s;
 }
+
 button {
   padding: 5px;
   margin: 5px;
@@ -19,6 +25,7 @@ button {
   outline: none;
   background: none;
   transition-duration: 0.3s;
+  animation: links 0.5s;
 }
 
 button:hover {
@@ -71,3 +78,32 @@ hr {
   height: 150px;
   width: 150px;
 }
+
+/*.circle {
+  margin: 20px auto;
+  border: 2px solid black;
+  background: white;
+  height: 150px;
+  width: 25%;
+  border-radius: 50%;
+}*/
+
+/*===================*/
+/*ANIMATION*/
+@keyframes name {
+  0% { transform: translate(0%, -1000%); }
+  100% { transform: translate(0%, 0); }
+}
+
+@keyframes links {
+  0% { transform: translate(0%, 1000%); }
+  100% { transform: translate(0%, 0); }
+}
+
+@keyframes breathe {
+  0% { opacity: 1; color: orange; }
+  50% { opacity: 0.6; color: teal; }
+  100% { opacity: 1; color: black; }
+}
+
+/*===================*/
