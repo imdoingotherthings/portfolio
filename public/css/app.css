@@ -8,6 +8,10 @@ body {
     align-content: center;
 }
 
+.column {
+    text-align: center;
+}
+
 .space {
     margin: 1%;
     padding: 1%;
@@ -16,3 +20,15 @@ body {
 .aTag {
     text-decoration: none;
 }
+
+.textUp {
+    font-family: Avenir;
+    font-size: 50px;
+}
+
+.hero {
+    background: url('/andrade_5.jpg') center / cover;
+}
+
+@media (max-width: 1024px) { .hero { background: url(/andrade_2.jpg) center / cover; } }
+@media (max-width:  768px) { .hero { background: url(/andrade_3.jpg) center / cover; } }
