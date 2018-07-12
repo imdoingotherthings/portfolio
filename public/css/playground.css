@@ -78,32 +78,3 @@ hr {
   height: 150px;
   width: 150px;
 }
-
-/*.circle {
-  margin: 20px auto;
-  border: 2px solid black;
-  background: white;
-  height: 150px;
-  width: 25%;
-  border-radius: 50%;
-}*/
-
-/*===================*/
-/*ANIMATION*/
-/* @keyframes name {
-  0% { transform: translate(0%, -1000%); }
-  100% { transform: translate(0%, 0); }
-}
-
-@keyframes links {
-  0% { transform: translate(0%, 1000%); }
-  100% { transform: translate(0%, 0); }
-}
-
-@keyframes breathe {
-  0% { opacity: 1; color: orange; }
-  50% { opacity: 0.6; color: teal; }
-  100% { opacity: 1; color: black; }
-} */
-
-/*===================*/

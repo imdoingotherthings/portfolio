@@ -1,0 +1,18 @@
+body {
+    background-color: #ecf0f1;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.space {
+    margin: 1%;
+    padding: 1%;
+}
+
+.aTag {
+    text-decoration: none;
+}
